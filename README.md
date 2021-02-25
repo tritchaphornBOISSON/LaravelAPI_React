@@ -13,8 +13,8 @@ See the results of the restaurants
 ![GitHub Logo](/Restaurant.png)
 
 
-Add comments and reserve a restaurant.
-![GitHub Logo](/Comment_Reservation.png)
+Add comments , put in your favorite list and reserve a restaurant.
+![GitHub Logo](/Comment_Reservation1.png)
 
 
 Your favorite restaurants, comments, and reservations are here.

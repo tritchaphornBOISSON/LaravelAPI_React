@@ -14,7 +14,7 @@ See the results of the restaurants
 
 
 Add comments and reserve a restaurant.
-![GitHub Logo](/Comment-Reservation.png)
+![GitHub Logo](/Comment_Reservation.png)
 
 
 Your favorite restaurants, comments, and reservations are here.

@@ -6,23 +6,25 @@ We created the web application where the you can search for any kind of restaura
 You can also comment on the restaurant and reserve a table if you like.
 
 
-![GitHub Logo](/home.png)
+![GitHub Logo](/Home.png)
 
-Dashboard
+Homepage where you can search from any cities in the world.
 
-![GitHub Logo](/dashboard.png)
+![GitHub Logo](/Restaurant.png)
 
-Manage your post
+See the results of the restaurants
 
-![GitHub Logo](/post.png)
+![GitHub Logo](/Comment-Reservation.png)
 
-Reservetion and payment for workspace
+Comment and reserve a restaurant.
 
-![GitHub Logo](/reserveration.png)
+![GitHub Logo](/Profile.png)
 
-Display the annoncement and add the comment if they want to
+Your favorite restaurants, comments, and reservations are here.
 
-![GitHub Logo](/show.png)
+![GitHub Logo](/Admin.png)
+
+Admin page.
 
 
 

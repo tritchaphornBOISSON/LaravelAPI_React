@@ -1,0 +1,38 @@
+:root {
+    --element-spacing: 1.5rem;
+    border:'none';
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: var(--element-spacing);
+    width: 100%;
+    border:'none';
+}
+
+.left > * {
+    margin-right: var(--element-spacing);
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.right > * {
+    margin-left: var(--element-spacing);
+}
+.ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 2000ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+}
+
+.ReactModal__Overlay--before-close{
+    opacity: 0;
+}

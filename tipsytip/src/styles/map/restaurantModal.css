@@ -1,0 +1,117 @@
+.apartment-modal-container {
+    height: min-content;
+    width: 30vw;
+    display: flex;
+    background-color: #fbf9ec;
+    cursor: default;
+    flex-direction: column;
+}
+.apartment-modal-banner {
+    width: 100%;
+    display: flex;
+    flex: .5;
+    background-color: #fbf9ec;
+    flex-direction: row;
+}
+@media screen and (min-width: 1900px) {
+    .apartment-modal-container {
+        width: 25vw;
+    }
+    .right-side {
+        display: flex;
+        flex: 1;
+        padding: 0px;
+        margin-left: -5%;
+        margin-top: 3%;
+        flex-direction: column;
+    }
+}
+.address-wrapper {
+    display: flex;
+    flex: 5;
+    /* flex-direction: column; */
+    padding: 0;
+    margin: 0;
+}
+.apartment-modal-banner__title {
+    font-size: 1.1rem;
+    font-weight: 900;
+	color: #0b2C4C;
+    margin-left: 5px;
+    font-family: 'Lato', Helvetica,Arial , sans-serif;
+}
+.favorite-icon {
+    display: flex;
+    flex: 1;
+    margin-top: 1%;
+    margin-right: 1.5%;
+    font-size: 2.5rem!important;
+    color: #ee4760!important;
+}
+.favorite-icon:hover {
+    color: rgb(197, 55, 69)!important;
+    cursor: pointer;
+}
+.apartment-modal-details {
+    width: 100%;
+    display: flex;
+    flex: 4;
+    font-family: 'Lato', Helvetica,Arial , sans-serif;
+    flex-direction: row;
+}
+.left-side {
+    display: flex;
+    flex: 1;
+    padding: 0px;
+    margin-top: 5px;
+}
+.right-side {
+    display: flex;
+    flex: 1;
+    padding: 0px;
+    margin-left: 3%;
+    margin-top: 3%;
+    flex-direction: column;
+}
+.apartment-modal-photo {
+    width: 100%;
+    height: 140px;
+    border-radius: 5px;
+}
+.right-side__name {
+    padding: 0px;
+    font-size: 1.1rem;
+    font-weight: 600;
+	color: #0b2C4C;
+    margin: 0px;
+}
+.right-side__price {
+    padding: 0px!important;
+    margin: 0px!important;
+    widtH: 100%;
+    /* margin-right: 85%!important; */
+    font-size: .8rem;
+    font-weight: 100;
+    opacity: .7;
+    margin-top: 3px!important;
+    margin-bottom: 8px!important;
+}
+.right-side__rating {
+    padding: 0px;
+    font-size: 1rem;
+    font-weight: 100;
+    opacity: .7;
+    margin: 0px;
+}
+.view-details {
+    text-decoration: none;
+    width: 80%;
+    color: #fbf9ec!important;
+    background-color: #ee4760!important;
+    border-radius: 3px;
+    margin-top: 5%!important;
+}
+.view-details-link {
+    color: #fbf9ec;
+    text-decoration: none;
+}

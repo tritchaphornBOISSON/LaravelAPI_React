@@ -1,0 +1,81 @@
+.review-wrapper {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin-top: 8%;
+}
+.user-wrapper {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.user-image {
+    width: 110px;
+    height: 110px;
+    border-radius: 5px;
+    margin-left: -13%;
+}
+.rating-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.review-date {
+    font-size: .9rem;
+    font-weight: 100;
+    font-family: 'Lato', Helvetica,Arial , sans-serif;
+    color: #0b2C4C;
+    margin-top: .5vh;
+    opacity: .8;
+    margin-left: 2vw;
+}
+.user-name {
+    font-size: 1rem;
+    /* margin-top: -3px; */
+    font-family: 'Lato', Helvetica,Arial , sans-serif;
+    color: #0b2C4C;
+}
+.review-content-wrapper {
+    display: flex;
+    flex: 6;
+    /* margin-left: 2%; */
+    flex-direction: column;
+}
+.content-text {
+    font-size: 1rem;
+    font-family: 'Lato', Helvetica,Arial , sans-serif;
+    color: #0b2C4C;
+}
+
+@media (max-width: 600px) {
+    .review-wrapper {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 8%;
+    }
+    .user-image {
+        width: 65px;
+        height: 70px;
+    }
+    .rating-wrapper {
+        display: flex;
+        flex-direction: row;
+    }
+    .review-date {
+        font-size: 1rem;
+    }
+    .user-name {
+        font-size: 1rem;
+        font-family: 'Lato', Helvetica,Arial , sans-serif;
+        color: #0b2C4C;
+    }
+    .content-text {
+        font-size: 1.2rem;
+        width: 95%;
+        font-family: 'Lato', Helvetica,Arial , sans-serif;
+        color: #0b2C4C;
+    }
+}
